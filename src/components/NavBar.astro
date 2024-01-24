@@ -80,7 +80,8 @@ html {
         padding: 1.25rem 1rem;
         /* prevents padding and border from affecting height and width */
         box-sizing: border-box;
-        background-color: #1a1a1a;
+        /* background-color: #1a1a1a; */
+        background-color: var(--secondary);
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         position: fixed;
         z-index: 10000;
@@ -176,7 +177,8 @@ html {
         width: 100%;
         height: 2px;
         border-radius: 2px;
-        background-color: #fafbfc;
+        /* background-color: #fafbfc; */
+        background-color: var(--secondary);
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
@@ -304,7 +306,8 @@ html {
         position: relative;
     }
     #cs-navigation .cs-li-link.cs-active {
-        color: var(--primary);
+        color: var(--secondary);
+        font-weight: 700;
     }
     #cs-navigation .cs-li-link:hover {
         color: var(--primary);
@@ -326,6 +329,7 @@ html {
         /* prevents padding and border from affecting height and width */
         box-sizing: border-box;
         background-color: #1a1a1a;
+        background-color: var(--secondary);
         position: fixed;
         z-index: 10000;
     }
@@ -406,6 +410,8 @@ html {
     }
     #cs-navigation .cs-li-link.cs-active {
         color: var(--primary);
+        font-weight: 700;
+        border-bottom: 1px solid var(--primary);
     }
     #cs-navigation .cs-button-solid {
         margin: 0;
