@@ -55,11 +55,6 @@
             </div>
         </nav>
         <a href="" class="cs-button-solid cs-nav-button">Contact Us</a>
-        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
-        <button id="dark-mode-toggle" aria-label="dark mode toggle">
-            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
-            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
-        </button>
     </div>
 </header>
                                 
@@ -72,7 +67,7 @@ body,
 html {
     /* reset margin and padding so there's no gap between the nav and the screen edges */
     margin: 0;
-       padding: 0;
+    padding: 0;
 }
 
 /* Mobile - 1023px */
@@ -144,7 +139,6 @@ html {
         width: 100%;
         height: 100%;
         border-radius: 0.5rem;
-        /* max-height: 50px; */
         /* ensures the image never overflows the container. It stays contained within it's width and height and expands to fill it then stops once it reaches an edge */
         object-fit: contain;
     }
@@ -363,8 +357,6 @@ html {
         z-index: 100;
     }
     #cs-navigation .cs-logo img {
-        /* width: 100%; */
-        /* height: 100%; */
         width: 8rem;
         height: auto;
         max-width: 100%;
@@ -416,41 +408,7 @@ html {
         color: var(--primary);
     }
     #cs-navigation .cs-button-solid {
-        font-size: 1rem;
-        /* 46px - 56px */
-        line-height: clamp(2.875em, 5.5vw, 3.5em);
-        text-decoration: none;
-        font-weight: 700;
-        text-align: center;
         margin: 0;
-        color: #fff;
-        min-width: 9.375rem;
-        padding: 0 2rem;
-        background-color: var(--primary);
-        display: inline-block;
-        position: relative;
-        z-index: 1;
-        /* prevents padding from adding to the width */
-        box-sizing: border-box;
-        transition: color 0.3s;
-    }
-    #cs-navigation .cs-button-solid:before {
-        content: "";
-        position: absolute;
-        height: 100%;
-        width: 0%;
-        background: #fff;
-        opacity: 1;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        transition: width 0.3s;
-    }
-    #cs-navigation .cs-button-solid:hover {
-        color: #1a1a1a;
-    }
-    #cs-navigation .cs-button-solid:hover:before {
-        width: 100%;
     }
 }
 
