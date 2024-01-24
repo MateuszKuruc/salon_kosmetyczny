@@ -5,8 +5,8 @@
 <section id="services-1176">
     <div class="cs-container">
         <div class="cs-content">
-            <span class="cs-topper">Our services</span>
-            <h2 class="cs-title">Together We Can Restore</h2>
+            <span class="cs-topper">Specjalizacje</span>
+            <h2 class="cs-title">Razem zadbamy o Twoją skórę</h2>
             <p class="cs-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis animi debitis nulla nihil
                 consequuntur neque perspiciatis praesentium asperiores! Doloremque, reiciendis?
@@ -19,18 +19,12 @@
                         src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/alloy-wheel%201.svg" alt="icon"
                         height="48" />
                 </picture>
-                <h3 class="cs-h3">Tire and wheel</h3>
+                <h3 class="cs-h3">Kosmetologia estetyczna</h3>
                 <p class="cs-item-text">
                     What is Check Engine Light? There are many variations of passages of Lorem Ipsum available, but
                     the
                     majority have...
                 </p>
-                <a href="" class="cs-link">
-                    Read More
-                    <img class="cs-arrow" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
-                        width="20" height="20" aria-hidden="true" />
-                </a>
             </li>
             <li class="cs-item">
                 <picture class="cs-picture">
@@ -38,18 +32,12 @@
                         src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/electric%201.svg" alt="icon" width="48"
                         height="48" />
                 </picture>
-                <h3 class="cs-h3">Electrical system</h3>
+                <h3 class="cs-h3">Kosmetologia lecznicza</h3>
                 <p class="cs-item-text">
                     Our featured services Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
                     fugit,
                     sed quia consequuntur...
                 </p>
-                <a href="" class="cs-link">
-                    Read More
-                    <img class="cs-arrow" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
-                        width="20" height="20" aria-hidden="true" />
-                </a>
             </li>
             <li class="cs-item">
                 <picture class="cs-picture">
@@ -57,18 +45,12 @@
                         src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/mech-engine.svg" alt="icon" width="48"
                         height="48" />
                 </picture>
-                <h3 class="cs-h3">System service</h3>
+                <h3 class="cs-h3">Terapia przeciwstarzeniowa</h3>
                 <p class="cs-item-text">
                     Our services Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
                     quia
                     consequuntur magni...
                 </p>
-                <a href="" class="cs-link">
-                    Read More
-                    <img class="cs-arrow" loading="lazy" decoding="async"
-                        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/red-arrow-right.svg" alt="icon"
-                        width="20" height="20" aria-hidden="true" />
-                </a>
             </li>
         </ul>
     </div>
@@ -120,23 +102,21 @@
         box-sizing: border-box;
         padding: 1.5rem;
         padding-bottom: 2rem;
-        background-color: #f7f7f7;
+        /* background-color: #f7f7f7; */
+        background-color: var(--primaryLight);
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
         position: relative;
         z-index: 1;
+        border-radius: 2rem;
         transition:
             box-shadow 0.3s,
             border-color 0.3s;
         text-align: center;
         grid-column: span 12;
         grid-row: span 1;
-    }
-    #services-1176 .cs-item:hover .cs-h3,
-    #services-1176 .cs-item:hover .cs-link {
-        color: var(--primary);
     }
     #services-1176 .cs-item:hover .cs-arrow {
         filter: initial;
@@ -162,7 +142,8 @@
         line-height: 1.2em;
         font-weight: bold;
         margin: 0 0 0.75rem;
-        color: var(--headerColor);
+        /* color: var(--headerColor); */
+        color: var(--secondary);
         transition: color 0.3s;
         text-align: inherit;
     }
