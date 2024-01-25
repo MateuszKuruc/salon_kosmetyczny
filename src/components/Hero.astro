@@ -12,16 +12,17 @@
 <section id="hero-929">
     <div class="cs-container">
         <div class="cs-content">
-            <h2 class="cs-title">Unleash Your Inner Beauty With Our Modern Hair Experts</h2>
+            <!-- <h2 class="cs-title">Unleash Your Inner Beauty With Our Modern Hair Experts</h2> -->
+            <h2 class="cs-title">Kosmetolog dedykowany specjalnie dla Ciebie</h2>
             <div class="cs-flex">
                 <div class="cs-content-group">
                     <p class="cs-text">
-                        Designed to maintain your current colour, blend out a growing root or balance your blonde while providing full and semi-permanent coverage.
+                        Szukasz rozwiązania swoich problemów za skórą? Rozpocznij współpracę z kosmetologiem, który ułoży cały plan działania - specjalnie dla Ciebie!
                     </p>
                     <a href="" class="cs-button-solid">Umów konsultację</a>
                 </div>
                 <div class="cs-hours-group">
-                    <span class="cs-header">Otwarte 7 dni w tygodniu</span>
+                    <span class="cs-header">Dostęp przez 7 dni w tygodniu</span>
                     <!-- <div class="cs-hours">
                         <span class="cs-day">Mon-Fri</span>
                         <span class="cs-time">10AM-8PM</span>
@@ -38,11 +39,11 @@
             </div>
             <!--We need this wrapper div so we can place the cs-tagline around the cs-picture image. We can only place images inside picture tags so the cs-tagline can't go in there. hence we HAVE to make a div wrapper so they can be placed together-->
             <div class="cs-picture-group">
-                <span class="cs-tagline">Zadbaj o zdrowie!</span>
+                <span class="cs-tagline">Zadbaj o zdrowie skóry!</span>
                 <!--Hair Model Picture-->
                 <picture class="cs-picture">
                     <!--Mobile Image-->
-                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/woman-m.png">
+                    <!-- <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/woman-m.png"> -->
                     <!--Tablet and above Image-->
                     <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/woman.png">
                     <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/woman.png" alt="hair model" width="576" height="598">
@@ -127,6 +128,7 @@
     }
     #hero-929 .cs-text {
         font-size: var(--bodyFontSize);
+        font-size: 1.1rem;
         line-height: 1.5em;
         text-align: inherit;
         width: 100%;
@@ -188,7 +190,8 @@
     }
     #hero-929 .cs-picture {
         width: 100%;
-        height: auto;
+        /* height: auto; */
+        height: 598px;
         max-height: 37.375rem;
         display: flex;
         align-items: flex-end;
