@@ -2,7 +2,7 @@
 <!--                   Steps                      -->
 <!-- ============================================ -->
 
-<section id="steps-1172">
+<section id="steps">
     <div class="cs-container">
         <div class="cs-content">
             <span class="cs-topper">Kolejne kroki</span>
@@ -61,13 +61,13 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #steps-1172 {
+    #steps {
         padding: var(--sectionPadding);
         overflow: hidden;
         position: relative;
         z-index: 1;
     }
-    #steps-1172 .cs-container {
+    #steps .cs-container {
         width: 100%;
         /* changes to 1280px at desktop */
         max-width: 44rem;
@@ -78,7 +78,7 @@
         /* 48px - 64px */
         gap: clamp(3rem, 6vw, 4rem);
     }
-    #steps-1172 .cs-content {
+    #steps .cs-content {
         /* set text align to left if content needs to be left aligned */
         text-align: center;
         width: 100%;
@@ -88,7 +88,7 @@
         align-items: center;
     }
 
-    #steps-1172 .cs-card-group {
+    #steps .cs-card-group {
         width: 100%;
         margin: 0;
         padding: 0;
@@ -96,7 +96,7 @@
         grid-template-columns: repeat(12, 1fr);
         gap: 1.25rem;
     }
-    #steps-1172 .cs-item {
+    #steps .cs-item {
         text-align: center;
         list-style: none;
         display: flex;
@@ -105,14 +105,14 @@
         align-items: center;
         position: relative;
     }
-    #steps-1172 .cs-item:last-of-type:after {
+    #steps .cs-item:last-of-type:after {
         display: none;
     }
-    #steps-1172 .cs-item:nth-of-type(even):after {
+    #steps .cs-item:nth-of-type(even):after {
         /* scaleX -1 flips it horizontally */
         transform: rotate(-135deg) scaleX(-1);
     }
-    #steps-1172 .cs-item:after {
+    #steps .cs-item:after {
         content: "";
         position: relative;
         display: block;
@@ -128,7 +128,7 @@
         opacity: 1;
         transform: rotate(135deg);
     }
-    #steps-1172 .cs-picture {
+    #steps .cs-picture {
         margin-bottom: 1.5rem;
         width: 5.5rem;
         height: 5.5rem;
@@ -139,12 +139,12 @@
         justify-content: center;
         align-items: center;
     }
-    #steps-1172 .cs-icon {
+    #steps .cs-icon {
         width: 2.5rem;
         height: auto;
         display: block;
     }
-    #steps-1172 .cs-h3 {
+    #steps .cs-h3 {
         font-size: 1.25rem;
         line-height: 1.2em;
         text-align: inherit;
@@ -152,7 +152,7 @@
         /* color: var(--headerColor); */
         color: var(--secondary);
     }
-    #steps-1172 .cs-item-text {
+    #steps .cs-item-text {
         font-size: 1rem;
         line-height: 1.5em;
         text-align: inherit;
@@ -160,7 +160,7 @@
         margin: 0;
         color: var(--bodyTextColor);
     }
-    #steps-1172 .cs-graphic {
+    #steps .cs-graphic {
         width: 52.5rem;
         height: auto;
         opacity: 0.3;
@@ -173,16 +173,16 @@
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-    #steps-1172 .cs-item {
+    #steps .cs-item {
         grid-column: span 6;
     }
-    #steps-1172 .cs-item:nth-of-type(2):after {
+    #steps .cs-item:nth-of-type(2):after {
         display: none;
     }
-    #steps-1172 .cs-item:nth-of-type(1):after {
+    #steps .cs-item:nth-of-type(1):after {
         transform: rotate(135deg) scaleX(-1);
     }
-    #steps-1172 .cs-item:after {
+    #steps .cs-item:after {
         margin: 0;
         position: absolute;
         right: -2.5rem;
@@ -192,21 +192,21 @@
 }
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
-    #steps-1172 .cs-container {
+    #steps .cs-container {
         max-width: 80rem;
     }
-    #steps-1172 .cs-item {
+    #steps .cs-item {
         grid-column: span 3;
     }
-    #steps-1172 .cs-item:nth-of-type(2):after {
+    #steps .cs-item:nth-of-type(2):after {
         display: block;
         transform: rotate(45deg);
     }
-    #steps-1172 .cs-item:nth-of-type(3):after {
+    #steps .cs-item:nth-of-type(3):after {
         display: block;
         transform: rotate(135deg) scaleX(-1);
     }
-    #steps-1172 .cs-item:after {
+    #steps .cs-item:after {
         right: -3rem;
     }
 }
