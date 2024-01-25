@@ -22,27 +22,27 @@
             <div class="cs-ul-wrapper">
                 <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
                     <li class="cs-li">
-                        <a href="/" class="cs-li-link cs-active">
+                        <a href="#hero" class="cs-li-link">
                             Strona główna
                         </a>
                     </li>
                     <li class="cs-li">
-                        <a href="/#services" class="cs-li-link">
+                        <a href="#services" class="cs-li-link">
                             Usługi
                         </a>
                     </li>
                     <li class="cs-li">
-                        <a href="/#steps" class="cs-li-link">
+                        <a href="#steps" class="cs-li-link">
                             Konsultacje
                         </a>
                     </li>
                     <li class="cs-li">
-                        <a href="/#why" class="cs-li-link">
+                        <a href="#why" class="cs-li-link">
                             O nas
                         </a>
                     </li>
                     <li class="cs-li">
-                        <a href="/#map-720" class="cs-li-link">
+                        <a href="#map-720" class="cs-li-link">
                             Kontakt
                         </a>
                     </li>
@@ -469,5 +469,45 @@ html {
         }
         item.addEventListener('click', onClick)
         }
-                                
+
+    // const desktopLinks = document.querySelectorAll('.cs-li-link');
+    // desktopLinks.forEach((link) => {
+    //     link.addEventListener('click', () => {
+    //         // event.preventDefault();
+    //         // link.classList.remove('cs-active');
+
+    //         desktopLinks.forEach((otherLink) => {
+    //             otherLink.classList.remove('cs-active');
+    //         });
+
+    //         link.classList.add('cs-active');
+
+    //     })
+    // })
+    
+    // const konsul = document.querySelector('#konsultacje'); 
+    // window.onscroll = () => {
+    //     desktopLinks.forEach((link) => {
+    //         link.classList.remove('cs-active');
+    //         console.log(scrollY);
+    //         if (scrollY < 700) {
+    //             desktopLinks[0].classList.add('cs-active')
+    //         }
+    //         if (scrollY >= 700 && scrollY < 3700) {
+    //             desktopLinks[1].classList.add('cs-active')
+    //         }
+    //         if (scrollY >= 3700 && scrollY < 4365) {
+    //             desktopLinks[2].classList.add('cs-active')
+    //         }
+    //         if (scrollY >= 4365 && scrollY < 5250) {
+    //             desktopLinks[3].classList.add('cs-active')
+    //         }
+    //         if (scrollY >= 5250) {
+    //             desktopLinks[4].classList.add('cs-active')
+    //         }
+    //     })
+    // }
+  
+
+              
 </script>
