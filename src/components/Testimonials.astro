@@ -21,9 +21,7 @@
                     Zabiegi modelowania ust oraz oczyszczania cery pzeprowadzone przez panią kosmetolog minęły pomyślnie.  Pani jest niezwykle sympatyczna i cierpliwa. Indywidualnie dobrala usługi zgodnie z moimi potrzebami, tłumaczyła każdy krok zabiegu. Dodatkowo, dobrała pielęgnację, udzielając informacji o optymalnych krokach do podjęcia po zabiegach. Pełen profesjonalizm i troska o klienta.
                 </p>
                 <div class="cs-flex-group">
-                    <picture class="cs-picture">
-                        <img class="cs-profile" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile2.jpg" decoding="async" alt="profile" width="50" height="50" aria-hidden="true">
-                    </picture>
+                    <img src="/rating.svg" alt="5 star rating" width="180px" height="30px">
                     <span class="cs-name">
                         Anna P.
                         <span class="cs-job"><span class="service">Usługa: </span>Modelowanie ust</span>
@@ -39,9 +37,7 @@
                     Jeżeli szukasz profesjonalnej opieki, to bardzo polecam usługi Pani Weroniki. Mam plan działania, pierwsze efekty po zaledwie tygodniu od konsultacji i jednym zabiegu, a przede wszystkim o wiele większe zrozumienie dla tego, co dzieje się na mojej skórze i w moim organizmie. Pani Weronika jest ewidentnie kosmetologiem z powołania, dobiera metody w oparciu o swoją wiedzę i doświadczenie, żaden Jej krok nie jest przypadkowy. Poza tym atmosfera jest przyjemna, kameralna, można sobie pogadać i napić się dobrej herbatki.
                 </p>
                 <div class="cs-flex-group">
-                    <picture class="cs-picture">
-                        <img class="cs-profile" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile3.png" decoding="async" alt="profile" width="50" height="50" aria-hidden="true">
-                    </picture>
+                    <img src="/rating.svg" alt="5 star rating" width="180px" height="30px">
                     <span class="cs-name">
                         Joanna L.
                         <span class="cs-job"><span class="service">Usługa: </span>Skóra - trądzik</span>
@@ -59,9 +55,7 @@
                     Niesamowicie profesjonalna i sympatyczna Pani Weronika. Świetne podejście do klienta, usługa od początku do końca dopasowana do potrzeb każdej osoby. 
                 </p>
                 <div class="cs-flex-group">
-                    <picture class="cs-picture">
-                        <img class="cs-profile" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile2.jpg" decoding="async" alt="profile" width="50" height="50" aria-hidden="true">
-                    </picture>
+                    <img src="/rating.svg" alt="5 star rating" width="180px" height="30px">
                     <span class="cs-name">
                         Zuzanna C.
                         <span class="cs-job"><span class="service">Usługa: </span>Skóra - trądzik</span>
@@ -77,9 +71,7 @@
                     Od kilku miesiecy moja skóra jest pod opieką Pani Weroniki, i tak ładnej skóry jeszcze nie miałam. Ogromnie polecam każdemu!
                 </p>
                 <div class="cs-flex-group">
-                    <picture class="cs-picture">
-                        <img class="cs-profile" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/profile3.png" decoding="async" alt="profile" width="50" height="50" aria-hidden="true">
-                    </picture>
+                    <img src="/rating.svg" alt="5 star rating" width="180px" height="30px">
                     <span class="cs-name">
                         Paulina J.
                         <span class="cs-job"><span class="service">Usługa: </span>Skóra - oczyszczanie cery + antyoksydacja</span>
@@ -178,8 +170,9 @@
         /* this margin top auto will push everything up and force the cs-flex-group to the bottom of the container. This is to account for review cards with different heights because of more or less text and makes the cards more responsive to changing text */
         margin-top: auto;
         display: flex;
+        flex-direction: column;
         justify-content: flex-start;
-        align-items: center;
+        /* align-items: center; */
         gap: 0.75rem;
     }
     #reviews-400 .cs-profile {
