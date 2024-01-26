@@ -2,13 +2,13 @@
 <!--                 Side By Side                 -->
 <!-- ============================================ -->
 
-<section id="RTsbs-1281">
+<section id="sbs1">
     <div class="cs-container">
         <picture class="cs-picture">
             <!--Mobile Image-->
-            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/sbs-construction.jpg">
+            <source media="(max-width: 600px)" srcset="/test2.webp">
             <!--Tablet and above Image-->
-            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/sbs-construction.jpg">
+            <source media="(min-width: 601px)" srcset="/testbig.jpg">
             <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/sbs-construction.jpg" alt="construction" width="738" height="598">
         </picture>
         <div class="cs-content">
@@ -38,13 +38,13 @@
 <!--             Side By Side Reverse             -->
 <!-- ============================================ -->
 
-<section id="RTsbsr-1281">
+<section id="sbs2">
     <div class="cs-container">
         <picture class="cs-picture">
             <!--Mobile Image-->
             <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/sbs-construction.jpg">
             <!--Tablet and above Image-->
-            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/sbs-construction.jpg">
+            <source media="(min-width: 601px)" srcset="/test2.webp">
             <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/sbs-construction.jpg" alt="construction" width="738" height="598">
         </picture>
         <div class="cs-content">
@@ -73,13 +73,13 @@
 <!--             Side By Side Triplet             -->
 <!-- ============================================ -->
 
-<section id="RTsbst-1281">
+<section id="sbs3">
     <div class="cs-container">
         <picture class="cs-picture">
             <!--Mobile Image-->
-            <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/sbs-construction.jpg">
+            <source media="(max-width: 600px)" srcset="/test1-m.webp">
             <!--Tablet and above Image-->
-            <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/sbs-construction.jpg">
+            <source media="(min-width: 601px)" srcset="/test1-m.webp">
             <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/sbs-construction.jpg" alt="construction" width="738" height="598">
         </picture>
         <div class="cs-content">
@@ -111,17 +111,17 @@
 
 /* Mobile - 360px */
 @media only screen and (min-width: 0rem) {
-    #RTsbs-1281,
-    #RTsbsr-1281,
-    #RTsbst-1281 {
+    #sbs1,
+    #sbs2,
+    #sbs3 {
         padding: var(--sectionPadding);
         overflow: hidden;
         position: relative;
         z-index: 1;
     }
-    #RTsbs-1281 .cs-container,
-    #RTsbsr-1281 .cs-container,
-    #RTsbst-1281 .cs-container {
+    #sbs1 .cs-container,
+    #sbs2 .cs-container,
+    #sbs3 .cs-container {
         width: 100%;
         /* changes to 1280px at desktop */
         max-width: 53.125rem;
@@ -133,9 +133,9 @@
         /* 48px - 108px */
         gap: clamp(3rem, 5vw, 6.75rem);
     }
-    #RTsbs-1281 .cs-content,
-    #RTsbsr-1281 .cs-content,
-    #RTsbst-1281 .cs-content {
+    #sbs1 .cs-content,
+    #sbs2 .cs-content,
+    #sbs3 .cs-content {
         /* set text align to left if content needs to be left aligned */
         text-align: left;
         width: 100%;
@@ -145,24 +145,24 @@
         align-items: flex-start;
     }
 
-    #RTsbs-1281 .cs-title,
-    #RTsbsr-1281 .cs-title,
-    #RTsbst-1281 .cs-title {
+    #sbs1 .cs-title,
+    #sbs2 .cs-title,
+    #sbs3 .cs-title {
         max-width: 20ch;
     }
-    #RTsbs-1281 .cs-text,
-    #RTsbsr-1281 .cs-text,
-    #RTsbst-1281 .cs-text {
+    #sbs1 .cs-text,
+    #sbs2 .cs-text,
+    #sbs3 .cs-text {
         margin-bottom: 1rem;
     }
-    #RTsbs-1281 .cs-text:last-of-type,
-    #RTsbsr-1281 .cs-text:last-of-type,
-    #RTsbst-1281 .cs-text:last-of-type {
+    #sbs1 .cs-text:last-of-type,
+    #sbs2 .cs-text:last-of-type,
+    #sbs3 .cs-text:last-of-type {
         margin-bottom: 2rem;
     }
-    #RTsbs-1281 .cs-picture,
-    #RTsbsr-1281 .cs-picture,
-    #RTsbst-1281 .cs-picture {
+    #sbs1 .cs-picture,
+    #sbs2 .cs-picture,
+    #sbs3 .cs-picture {
         width: 100%;
         /* 456px - 598px */
         height: clamp(28.5rem, 46vw, 37.375rem);
@@ -174,9 +174,9 @@
         position: relative;
         z-index: 1;
     }
-    #RTsbs-1281 .cs-picture:before,
-    #RTsbsr-1281 .cs-picture:before,
-    #RTsbst-1281 .cs-picture:before {
+    #sbs1 .cs-picture:before,
+    #sbs2 .cs-picture:before,
+    #sbs3 .cs-picture:before {
         /* black overlay */
         content: "";
         width: 100%;
@@ -189,9 +189,9 @@
         left: 0;
         z-index: 1;
     }
-    #RTsbs-1281 .cs-picture img,
-    #RTsbsr-1281 .cs-picture img,
-    #RTsbst-1281 .cs-picture img {
+    #sbs1 .cs-picture img,
+    #sbs2 .cs-picture img,
+    #sbs3 .cs-picture img {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -199,9 +199,9 @@
         top: 0;
         left: 0;
     }
-    #RTsbs-1281 .cs-background,
-    #RTsbsr-1281 .cs-background,
-    #RTsbst-1281 .cs-background {
+    #sbs1 .cs-background,
+    #sbs2 .cs-background,
+    #sbs3 .cs-background {
         width: 100%;
         height: 50%;
         background-color: #1a1a1a;
@@ -213,9 +213,9 @@
         left: 0;
         z-index: -1;
     }
-    #RTsbs-1281 .cs-background img,
-    #RTsbsr-1281 .cs-background img,
-    #RTsbst-1281 .cs-background img {
+    #sbs1 .cs-background img,
+    #sbs2 .cs-background img,
+    #sbs3 .cs-background img {
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -226,54 +226,54 @@
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
-    #RTsbs-1281 .cs-content,
-    #RTsbsr-1281 .cs-content,
-    #RTsbst-1281 .cs-content {
+    #sbs1 .cs-content,
+    #sbs2 .cs-content,
+    #sbs3 .cs-content {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         row-gap: 2rem;
     }
-    #RTsbs-1281 .cs-flex,
-    #RTsbsr-1281 .cs-flex,
-    #RTsbst-1281 .cs-flex {
+    #sbs1 .cs-flex,
+    #sbs2 .cs-flex,
+    #sbs3 .cs-flex {
         width: 45%;
     }
-    #RTsbs-1281 .cs-title,
-    #RTsbsr-1281 .cs-title,
-    #RTsbst-1281 .cs-title {
+    #sbs1 .cs-title,
+    #sbs2 .cs-title,
+    #sbs3 .cs-title {
         margin: 0;
     }
-    #RTsbs-1281 .cs-text,
-    #RTsbsr-1281 .cs-text,
-    #RTsbst-1281 .cs-text {
+    #sbs1 .cs-text,
+    #sbs2 .cs-text,
+    #sbs3 .cs-text {
         width: 50%;
     }
-    #RTsbs-1281 .cs-button-solid,
-    #RTsbsr-1281 .cs-button-solid,
-    #RTsbst-1281 .cs-button-solid {
+    #sbs1 .cs-button-solid,
+    #sbs2 .cs-button-solid,
+    #sbs3 .cs-button-solid {
         margin-right: auto;
     }
 }
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
-    #RTsbs-1281,
-    #RTsbsr-1281,
-    #RTsbst-1281 {
+    #sbs1,
+    #sbs2,
+    #sbs3 {
         /* moved padding back to the section container */
         padding: var(--sectionPadding);
     }
-    #RTsbs-1281 .cs-container,
-    #RTsbsr-1281 .cs-container,
-    #RTsbst-1281 .cs-container {
+    #sbs1 .cs-container,
+    #sbs2 .cs-container,
+    #sbs3 .cs-container {
         max-width: 80rem;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
     }
-    #RTsbs-1281 .cs-content,
-    #RTsbsr-1281 .cs-content,
-    #RTsbst-1281 .cs-content {
+    #sbs1 .cs-content,
+    #sbs2 .cs-content,
+    #sbs3 .cs-content {
         width: 100%;
         max-width: 27.0625rem;
         margin: 0;
@@ -281,31 +281,31 @@
         order: 2;
         row-gap: 0;
     }
-    #RTsbs-1281 .cs-flex,
-    #RTsbsr-1281 .cs-flex,
-    #RTsbst-1281 .cs-flex {
+    #sbs1 .cs-flex,
+    #sbs2 .cs-flex,
+    #sbs3 .cs-flex {
         width: 100%;
     }
-    #RTsbs-1281 .cs-title,
-    #RTsbsr-1281 .cs-title,
-    #RTsbst-1281 .cs-title {
+    #sbs1 .cs-title,
+    #sbs2 .cs-title,
+    #sbs3 .cs-title {
         margin: 0 0 1rem 0;
         color: var(--headerColor);
     }
-    #RTsbs-1281 .cs-text,
-    #RTsbsr-1281 .cs-text,
-    #RTsbst-1281 .cs-text {
+    #sbs1 .cs-text,
+    #sbs2 .cs-text,
+    #sbs3 .cs-text {
         width: 100%;
     }
-    #RTsbs-1281 .cs-picture,
-    #RTsbsr-1281 .cs-picture,
-    #RTsbst-1281 .cs-picture {
+    #sbs1 .cs-picture,
+    #sbs2 .cs-picture,
+    #sbs3 .cs-picture {
         max-width: 46.125rem;
         order: 1;
     }
-    #RTsbs-1281 .cs-background,
-    #RTsbsr-1281 .cs-background,
-    #RTsbst-1281 .cs-background {
+    #sbs1 .cs-background,
+    #sbs2 .cs-background,
+    #sbs3 .cs-background {
         width: 60vw;
         height: 100%;
         /* 172px - 336px */
@@ -323,10 +323,10 @@
 
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
-    #RTsbsr-1281 .cs-content {
+    #sbs2 .cs-content {
         order: -1;
     }
-    #RTsbsr-1281 .cs-background {
+    #sbs2 .cs-background {
         margin: 0;
         /* 172px - 336px */
         margin-left: clamp(11.125rem, 30vw, 21rem);
@@ -342,7 +342,7 @@
 
 /* Desktop - 1024px */
 @media only screen and (min-width: 64rem) {
-    #RTsbst-1281 .cs-background {
+    #sbs3 .cs-background {
         border-radius: 0 1rem 0 0;
     }
 }
