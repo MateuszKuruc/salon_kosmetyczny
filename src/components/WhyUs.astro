@@ -8,6 +8,13 @@
             <span class="cs-topper">Dlaczego mój gabinet?</span>
             <h2 class="cs-title">Stworzę plan pielęgnacji specjalnie dla Ciebie</h2>
             <!-- <a href="" class="cs-button-solid">Sprawdź pełną ofertę</a> -->
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="why4.jpg">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/why4.jpg">
+                <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hands.png" alt="hands holding accessories" width="956" height="226">
+            </picture>
         </div>
         <ul class="cs-card-group">
             <li class="cs-item">
@@ -39,13 +46,7 @@
             </li>
         </ul>
     </div>
-    <picture class="cs-picture">
-        <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="why4.jpg">
-        <!--Tablet and above Image-->
-        <source media="(min-width: 601px)" srcset="/why4.jpg">
-        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hands.png" alt="hands holding accessories" width="956" height="226">
-    </picture>
+   
 </section>
                                 
 <style>
@@ -190,10 +191,14 @@
     }
     #why .cs-picture img {
         width: auto;
-        height: auto;
-        height: 400px;
+        max-height: 350px;
         border-radius: 2rem;
         margin-bottom: 2rem;
+    }
+}
+@media only screen and (min-width: 1280px) {
+    #why .cs-picture img {
+        max-height: 400px;
     }
 }
                     
