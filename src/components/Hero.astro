@@ -23,28 +23,15 @@
                 </div>
                 <div class="cs-hours-group">
                     <span class="cs-header">Dostęp przez 7 dni w tygodniu</span>
-                    <!-- <div class="cs-hours">
-                        <span class="cs-day">Mon-Fri</span>
-                        <span class="cs-time">10AM-8PM</span>
-                    </div>
-                    <div class="cs-hours">
-                        <span class="cs-day">Sat</span>
-                        <span class="cs-time">11AM-6PM</span>
-                    </div>
-                    <div class="cs-hours">
-                        <span class="cs-day">Sun</span>
-                        <span class="cs-time">Closed</span>
-                    </div> -->
                 </div>
             </div>
-            <!--We need this wrapper div so we can place the cs-tagline around the cs-picture image. We can only place images inside picture tags so the cs-tagline can't go in there. hence we HAVE to make a div wrapper so they can be placed together-->
             <div class="cs-picture-group">
                 <span class="cs-tagline">Zadbaj o zdrowie skóry!</span>
                 <!--Hair Model Picture-->
                 <picture class="cs-picture">
-                    <!--Mobile Image-->
-                    <!-- <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/woman-m.png"> -->
-                    <!--Tablet and above Image-->
+                    <!-- Mobile Image-->
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/woman-m.png">
+                    <!-- Tablet and above Image -->
                     <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/woman.png">
                     <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/woman.png" alt="hair model" width="576" height="598">
                 </picture>
@@ -53,10 +40,10 @@
     </div>
     <picture class="cs-background">
         <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="/hero1.jpg">
+        <source media="(max-width: 600px)" srcset="/hero-m.webp">
         <!--Tablet and above Image-->
-        <source media="(min-width: 601px)" srcset="hero1.jpg">
-        <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/MISC/salon.jpg" alt="salon interior" width="1920" height="804">
+        <source media="(min-width: 601px)" srcset="hero.webp">
+        <img loading="lazy" decoding="async" src="/hero-fallback.jpg" alt="salon interior" width="2000" height="1333">
     </picture>
 </section>
                                 
