@@ -210,7 +210,7 @@ html {
             bottom 0.3s,
             opacity 0.3s;
     }
-    #cs-navigation .cs-ul-wrapper {
+    /* #cs-navigation .cs-ul-wrapper {
         width: 100%;
         height: auto;
         padding-bottom: 2.4em;
@@ -227,7 +227,25 @@ html {
         transition:
             transform 0.4s,
             opacity 0.3s;
-    }
+    } */
+    #cs-navigation .cs-ul-wrapper {
+    min-width: 60vw;
+    height: 100vh;
+    opacity: 0;
+    background-color: #fff;
+    box-shadow: inset rgba(0, 0, 0, 0.2) 0px 8px 24px;
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    left: auto;
+    right: 0;
+    z-index: -1;
+    transform: scaleX(0);
+    transform-origin: top right;
+    transition:
+        transform 0.4s,
+        opacity 0.3s;
+}
     #cs-navigation .cs-ul {
         margin: 0;
         padding: 3rem 0 0 0;
@@ -304,10 +322,13 @@ html {
     }
     #cs-navigation .cs-li-link.cs-active {
         color: var(--secondary);
+        /* color: var(--primary); */
         font-weight: 700;
     }
     #cs-navigation .cs-li-link:hover {
         color: var(--primary);
+        color: var(--secondary);
+        font-weight: 700;
     }
     #cs-navigation .cs-button-solid {
         display: none;
@@ -469,44 +490,6 @@ html {
         }
         item.addEventListener('click', onClick)
         }
-
-    // const desktopLinks = document.querySelectorAll('.cs-li-link');
-    // desktopLinks.forEach((link) => {
-    //     link.addEventListener('click', () => {
-    //         // event.preventDefault();
-    //         // link.classList.remove('cs-active');
-
-    //         desktopLinks.forEach((otherLink) => {
-    //             otherLink.classList.remove('cs-active');
-    //         });
-
-    //         link.classList.add('cs-active');
-
-    //     })
-    // })
-    
-    // const konsul = document.querySelector('#konsultacje'); 
-    // window.onscroll = () => {
-    //     desktopLinks.forEach((link) => {
-    //         link.classList.remove('cs-active');
-    //         console.log(scrollY);
-    //         if (scrollY < 700) {
-    //             desktopLinks[0].classList.add('cs-active')
-    //         }
-    //         if (scrollY >= 700 && scrollY < 3700) {
-    //             desktopLinks[1].classList.add('cs-active')
-    //         }
-    //         if (scrollY >= 3700 && scrollY < 4365) {
-    //             desktopLinks[2].classList.add('cs-active')
-    //         }
-    //         if (scrollY >= 4365 && scrollY < 5250) {
-    //             desktopLinks[3].classList.add('cs-active')
-    //         }
-    //         if (scrollY >= 5250) {
-    //             desktopLinks[4].classList.add('cs-active')
-    //         }
-    //     })
-    // }
   
 
               
