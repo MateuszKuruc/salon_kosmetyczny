@@ -41,9 +41,9 @@
     </div>
     <picture class="cs-picture">
         <!--Mobile Image-->
-        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hands-m.png">
+        <source media="(max-width: 600px)" srcset="why4.jpg">
         <!--Tablet and above Image-->
-        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hands.png">
+        <source media="(min-width: 601px)" srcset="/why4.jpg">
         <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/People/hands.png" alt="hands holding accessories" width="956" height="226">
     </picture>
 </section>
@@ -147,6 +147,7 @@
     #why .cs-picture {
         width: 100%;
         height: auto;
+        /* max-height: 100px; */
         /* 48px - 64px */
         margin-top: clamp(3rem, 6vw, 4rem);
         display: flex;
@@ -156,6 +157,7 @@
     #why .cs-picture img {
         width: 100%;
         height: auto;
+        border-radius: 2rem;
     }
 }
 /* Tablet - 768px */
@@ -186,7 +188,12 @@
         left: 50%;
         margin: 0 0 0 2.5rem;
     }
-}
-
-                                
+    #why .cs-picture img {
+        width: auto;
+        height: auto;
+        height: 400px;
+        border-radius: 2rem;
+        margin-bottom: 2rem;
+    }
+}                    
 </style>
